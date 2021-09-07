@@ -42,8 +42,10 @@
         color: $main-color;
         font-size: 14px;
         font-weight: 300;
-        a {
+        text-decoration: none;
+        &:hover {
             text-decoration: underline;
+            color: $main-color;
         }
     }
 }

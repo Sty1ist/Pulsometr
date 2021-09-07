@@ -45,3 +45,13 @@
   font-weight: 300;
   text-align: center;
 }
+
+.advantage__link {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.advantage__link a:hover {
+  text-decoration: none;
+  color: white;
+}
