@@ -189,3 +189,9 @@
   text-decoration: underline;
   color: #c70101;
 }
+
+@media (max-width: 1200px) {
+  .promo__header {
+    font-size: 20px;
+  }
+}
