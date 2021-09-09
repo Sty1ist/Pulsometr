@@ -1,3 +1,9 @@
+@media (max-width: 991px) {
+  .advantage__icons {
+    width: auto;
+  }
+}
+
 @media (max-width: 767px) {
   .container {
     max-width: 720px;
@@ -38,6 +44,14 @@
     margin: 0 auto;
     margin-top: 68px;
   }
+  .advantage__icons {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+  }
+  .advantage__icon {
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -50,7 +64,7 @@
     text-align: center;
   }
   .promo__subheader {
-    font-size: 19px;
+    font-size: 22px;
     text-align: center;
     margin-top: 14px;
   }
@@ -88,6 +102,12 @@
     font-size: 14px;
     width: 260px;
     margin: 0 auto;
-    margin-top: 90px;
+    margin-top: 85px;
+  }
+  .advantage__icons img {
+    margin-bottom: 8px;
+  }
+  .advantage__subheader {
+    margin-bottom: 17px;
   }
 }

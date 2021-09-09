@@ -1,3 +1,7 @@
+@media (max-width: 991px)
+    .advantage
+        &__icons
+            width: auto
 
 @media (max-width: 767px)
     .container
@@ -28,13 +32,22 @@
         &__phone
         a
             font-size: 17px
-    .promo
 
     .button_main
         font-size: 15px
         width: 280px
         margin: 0 auto
         margin-top: 68px
+
+    .advantage
+        &__header
+
+        &__icons
+            flex-direction: column
+            align-items: center
+            width: auto
+        &__icon
+            margin-top: 20px
 
 @media (max-width: 575px)
     .promo
@@ -44,7 +57,7 @@
             font-size: 35px
             text-align: center
         &__subheader
-            font-size: 19px
+            font-size: 22px
             text-align: center
             margin-top: 14px
         &__icons
@@ -78,4 +91,11 @@
         font-size: 14px
         width: 260px
         margin: 0 auto
-        margin-top: 90px
+        margin-top: 85px
+
+    .advantage
+        &__icons
+            img
+                margin-bottom: 8px
+        &__subheader
+            margin-bottom: 17px
