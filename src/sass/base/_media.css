@@ -104,8 +104,14 @@
     margin: 0 auto;
     margin-top: 85px;
   }
+  .advantage {
+    padding: 63px 0 40px 0;
+  }
   .advantage__icons img {
     margin-bottom: 8px;
+  }
+  .advantage__header {
+    font-size: 27px;
   }
   .advantage__subheader {
     margin-bottom: 17px;
