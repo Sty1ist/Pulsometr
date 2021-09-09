@@ -35,7 +35,7 @@
   .header__logo {
     width: 180px;
   }
-  .header a {
+  .header__phone a {
     font-size: 17px;
   }
   .button_main {
