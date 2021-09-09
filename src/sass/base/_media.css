@@ -52,6 +52,16 @@
   .advantage__icon {
     margin-top: 20px;
   }
+  .consultation__descr {
+    text-align: center;
+  }
+  .feed-form {
+    margin: 0 auto;
+    margin-top: 36px;
+  }
+  .title_left {
+    text-align: center;
+  }
 }
 
 @media (max-width: 575px) {
@@ -105,15 +115,29 @@
     margin-top: 85px;
   }
   .advantage {
-    padding: 63px 0 40px 0;
+    padding: 63px 0 0 0;
   }
   .advantage__icons img {
     margin-bottom: 8px;
   }
   .advantage__header {
     font-size: 27px;
+    margin-bottom: 50px;
   }
   .advantage__subheader {
     margin-bottom: 17px;
+  }
+  .advantage__icon {
+    height: 220px;
+  }
+  .consultation {
+    padding: 70px 0 65px 0;
+  }
+  .consultation__descr {
+    text-align: center;
+  }
+  .title_left {
+    font-size: 30px;
+    text-align: center;
   }
 }

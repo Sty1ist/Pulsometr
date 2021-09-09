@@ -197,6 +197,48 @@
   color: #c70101;
 }
 
+.consultation {
+  min-height: 680px;
+  padding: 100px 0 92px 0;
+  background: url(../../img/bg/bg2.jpg) center center/cover no-repeat;
+}
+
+.consultation__descr {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.title_left {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.feed-form {
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.feed-form input {
+  height: 50px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+  border: none;
+  padding: 0 20px;
+  color: #4b4b4b;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.feed-form input:nth-child(3) {
+  margin-bottom: 20px;
+}
+
 @media (max-width: 991px) {
   .advantage__icons {
     width: auto;
@@ -304,57 +346,30 @@
     margin-top: 85px;
   }
   .advantage {
-    padding: 63px 0 40px 0;
+    padding: 63px 0 0 0;
   }
   .advantage__icons img {
     margin-bottom: 8px;
   }
   .advantage__header {
     font-size: 27px;
+    margin-bottom: 50px;
   }
   .advantage__subheader {
     margin-bottom: 17px;
   }
-}
-
-.consultation {
-  min-height: 680px;
-  padding: 100px 0 92px 0;
-  background: url(../../img/bg/bg2.jpg) center center/cover no-repeat;
-}
-
-.consultation__descr {
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.title_left {
-  color: #ffffff;
-  font-size: 36px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.feed-form {
-  margin-top: 36px;
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-}
-
-.feed-form input {
-  height: 50px;
-  border-radius: 5px;
-  background-color: #ffffff;
-  margin-bottom: 15px;
-  border: none;
-  padding: 0 20px;
-  color: #4b4b4b;
-  font-size: 14px;
-  font-weight: 300;
-}
-
-.feed-form input:nth-child(3) {
-  margin-bottom: 20px;
+  .advantage__icon {
+    height: 220px;
+  }
+  .consultation {
+    padding: 70px 0 65px 0;
+  }
+  .consultation__descr {
+    text-align: center;
+    margin-top: 70px;
+  }
+  .title_left {
+    font-size: 30px;
+    text-align: center;
+  }
 }
