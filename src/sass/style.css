@@ -1,3 +1,4 @@
+@import url(/Users/maksymriabenko/Desktop/Projects/Pulsometr/src/Fonts/MuseoSans/FontStyle.css);
 * {
   font-family: "Museo Sans Cyrl", sans-serif;
 }
@@ -293,6 +294,16 @@
   .advantage__icon {
     margin-top: 20px;
   }
+  .consultation__descr {
+    text-align: center;
+  }
+  .feed-form {
+    margin: 0 auto;
+    margin-top: 36px;
+  }
+  .title_left {
+    text-align: center;
+  }
 }
 
 @media (max-width: 575px) {
@@ -366,7 +377,6 @@
   }
   .consultation__descr {
     text-align: center;
-    margin-top: 70px;
   }
   .title_left {
     font-size: 30px;
