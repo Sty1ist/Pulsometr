@@ -3,12 +3,18 @@
 }
 
 .carousel__inner {
+  position: relative;
   width: 750px;
   margin: 0 auto;
 }
 
 .carousel .slick-prev,
 .carousel .slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -66px;
+  position: absolute;
   background-color: #fff;
   border: none;
 }
@@ -17,4 +23,9 @@
 .carousel .slick-next img {
   width: 31px;
   height: 50px;
+}
+
+.carousel .slick-next {
+  left: auto;
+  right: -66px;
 }
