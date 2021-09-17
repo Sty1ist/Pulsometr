@@ -113,6 +113,7 @@
             width: calc(200% + 40px);
         }
         &__content {
+            transition: 0.5s all;
             width: 50%;
             margin-right: 20px;
             margin-right: 0;
@@ -123,7 +124,7 @@
             }
         }
         &__list {
-            position: relative;
+            // position: relative;
             width: 50%;
             margin-left: 20px;
             transform: translateX(0%);
