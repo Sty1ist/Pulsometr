@@ -6,8 +6,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-left: 0;
+        margin-bottom: 0;
     }
     &__tab {
+        cursor: pointer;
         width: 220px;
         height: 50px;
         border: 2px solid #d0d0d0;
@@ -19,8 +22,18 @@
         line-height: 48px;
         transform: skewX(-25deg);
         margin: 0 5px;
+        transition: 0.5s all;
         div {
             transform: skewX(25deg);
+        }
+        &:hover {
+            box-shadow: 3px 3px 20px $main-color;
+            border: none;
+        }
+        &_active {
+            color: #ffffff;
+            background-color: $main-color;
+            border: none;
         }
     }
 }
