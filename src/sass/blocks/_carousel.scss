@@ -30,4 +30,29 @@
             width: 100%;
         }
     }
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        button {
+            font-size: 0;
+            width: 15px;
+            height: 15px;
+            background-color: $main-color;
+            border-radius: 50%;
+            border: none;
+        }
+        li {
+            display: block;
+            list-style: none;
+            margin: 0 10px;
+            width: 10px;
+        }
+    }
+    .slick-active {
+        button {
+            background-color: rgb(36, 184, 17);
+        }
+    }
 }
