@@ -3,6 +3,17 @@
         &__icons
             width: auto
 
+    .catalog
+        &__content
+            // display: flex
+    //         flex-direction: row
+    //         justify-content: center
+
+        &-item
+            width: 270px
+            margin-bottom: 10px
+            margin-right: 10px
+
 @media (max-width: 767px)
     .container
         max-width: 720px
@@ -54,6 +65,16 @@
         margin-top: 36px
     .title_left
         text-align: center
+
+    .catalog
+        &__content
+            // display: flex
+            // flex-direction: row
+            // justify-content: center
+        &-item
+            width: 270px
+            margin-bottom: 10px
+            margin-right: 10px
 
 @media (max-width: 575px)
     .promo
@@ -118,3 +139,21 @@
     .title_left
         font-size: 30px
         text-align: center
+
+    .carousel
+        padding: 75px 0
+
+    .catalog
+        &__tabs
+            flex-direction: column
+            margin-top: 60px
+            align-items: center
+            div
+                font-size: 15px
+        &__tab
+            margin-bottom: 15px
+        &_wrapper
+            display: flex
+            flex-direction: column
+            align-content: center
+            margin-top: 45px
