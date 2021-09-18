@@ -2,7 +2,7 @@
     padding: 81px 0;
     &__inner {
         position: relative;
-        width: 750px;
+        max-width: 750px;
         margin: 0 auto;
     }
     .slick-prev,
@@ -22,5 +22,12 @@
     .slick-next {
         left: auto;
         right: -66px;
+    }
+    .slick-slide {
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+        }
     }
 }
