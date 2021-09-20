@@ -1,10 +1,12 @@
 * {
     font-family: "Museo Sans Cyrl", sans-serif;
 }
+
 .container {
     max-width: 950px;
     margin: 0 auto;
 }
+
 @import "../Fonts/MuseoSans/FontStyle.css";
 @import "base/variables";
 @import "blocks/promo";
@@ -18,3 +20,4 @@
 @import "blocks/catalog";
 @import "blocks/reviews";
 @import "base/_media.sass";
+@import "blocks/footer";
