@@ -3,6 +3,9 @@
     display: flex;
     flex-direction: column;
     width: 300px;
+    &_mt25 {
+        margin-top: 25px;
+    }
     input {
         height: 50px;
         border-radius: 5px;
