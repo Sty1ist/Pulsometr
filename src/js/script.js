@@ -74,4 +74,31 @@ $(document).ready(function () {
             $('.overlay, #order').fadeIn('slow');
         });
     });
+
+    function validateForms(form) {
+        $(form).validate ({
+            rules: {
+                name: "required",
+                phone: "required",
+                email: {
+                    required: true,
+                    email:true
+                }
+                    
+            },
+            messages: {
+                name: "Пожалуйста, введите свое имя",
+                phone:"Пожалуйста введите свой мобильный номер",
+                email: {
+                required: "Пожалуйста, введите свою почту",
+                email: "не верный формат  email"
+                }
+            }
+
+        });
+    };
+
+    validateForms('#consultation-form');
+    validateForms('#consultation form');
+    validateForms('#order form');
 });

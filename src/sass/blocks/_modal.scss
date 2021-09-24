@@ -42,6 +42,15 @@
         width: 380px;
         min-height: 140px;
     }
+    .error{
+        text-align: center;
+
+        border:1px solid red;
+    }
+    label.error{
+        border: none;
+        margin-bottom: 15px;
+    }
 }
 
 #consultation,
