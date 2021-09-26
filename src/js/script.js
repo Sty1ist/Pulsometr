@@ -104,8 +104,11 @@ $(document).ready(function () {
 
     $("input[name=phone]").mask("+7(999) 999-9999");
 
-    $('form').submit(function (e) {
+    $('form').submit(function(e) {
         e.preventDefault();
+        if (!$(this).valid()) {
+        return;
+        };
         $.ajax({
             type: "POST",
             url: "mailer/smart.php",
