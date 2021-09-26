@@ -14,6 +14,10 @@
             margin: 0 auto;
             margin-bottom: 38px;
         }
+        img.heart{
+                animation-name: heartbeat;
+                animation-duration: 2s;
+        }
     }
     &__icon {
         width: 239px;
@@ -45,4 +49,4 @@
             color: $main-color;
         }
     }
-}
+};

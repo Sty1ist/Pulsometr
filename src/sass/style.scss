@@ -8,6 +8,7 @@
 }
 
 @import "../Fonts/MuseoSans/FontStyle.css";
+@import "base/animations";
 @import "base/variables";
 @import "blocks/promo";
 @import "blocks/header";
@@ -22,4 +23,4 @@
 @import "blocks/footer";
 @import "blocks/modal";
 @import "base/_media.sass";
-@import "blocks/pageup.scss"
+@import "blocks/pageup.scss";
