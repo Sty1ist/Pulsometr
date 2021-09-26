@@ -15,8 +15,10 @@
             margin-bottom: 38px;
         }
         img.heart{
-                animation-name: heartbeat;
-                animation-duration: 2s;
+                animation: heartbeat 1.5s infinite ease ;
+                &:hover{
+                    animation-play-state: paused;
+                }
         }
     }
     &__icon {
