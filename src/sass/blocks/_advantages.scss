@@ -15,7 +15,7 @@
             margin-bottom: 38px;
         }
         img.heart{
-                animation: heartbeat 1.5s infinite ease ;
+                animation: heartbeat 1.5s infinite ease;
                 &:hover{
                     animation-play-state: paused;
                 }
