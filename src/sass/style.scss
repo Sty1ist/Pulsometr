@@ -11,7 +11,7 @@
     margin: 0 auto;
 }
 
-@import "../Fonts/MuseoSans/FontStyle.css";
+@import "../Fonts/MuseoSans/FontStyle";
 @import "base/animations";
 @import "base/variables";
 @import "blocks/promo";
@@ -28,5 +28,4 @@
 @import "blocks/modal";
 @import "base/_media.sass";
 @import "blocks/pageup.scss";
-// @import "libs/fonts";
 
